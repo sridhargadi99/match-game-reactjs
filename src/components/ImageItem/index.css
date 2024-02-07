@@ -1,0 +1,21 @@
+.image-list-style {
+  list-style-type: none;
+  align-self: center;
+}
+.thumbnail-button-style {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.thumbnail-image-style {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-image-style {
+    height: 170px;
+    width: 170px;
+  }
+}
